@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Mental: Microeconomía vs. Macroeconomía</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .mapa-container {
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .nodo {
+      background-color: white;
+      border-left: 5px solid #0d6efd;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin: 1rem;
+      padding: 1rem;
+      width: 300px;
+      transition: transform 0.2s ease-in-out;
+    }
+    .nodo:hover {
+      transform: translateY(-5px);
+    }
+    .titulo-central {
+      background-color: #ffc107;
+      color: black;
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-size: 1.4rem;
+    }
+    .subtitulo {
+      font-weight: bold;
+      color: #198754;
+    }
+    .comparativa-table th {
+      background-color: #0d6efd;
+      color: white;
+    }
+    .comparativa-table td {
+      background-color: #e9ecef;
+    }
+    @media (max-width: 768px) {
+      .nodo {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container text-center mt-4">
+  <div class="titulo-central">Economía</div>
+  <p class="mt-2">Ciencia social que estudia cómo las personas y las sociedades gestionan recursos escasos para satisfacer necesidades ilimitadas.</p>
+
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-5 nodo">
+      <h4 class="subtitulo">Microeconomía</h4>
+      <ul class="text-start">
+        <li>Estudia el comportamiento de consumidores y empresas.</li>
+        <li>Analiza la formación de precios en mercados individuales.</li>
+        <li>Evalúa decisiones sobre producción y consumo.</li>
+        <li><strong>Ejemplo:</strong> Cómo una panadería fija el precio del pan.</li>
+        <li><strong>Ejemplo:</strong> Cómo reacciona un consumidor ante una subida de precios.</li>
+      </ul>
+    </div>
+
+    <div class="col-md-5 nodo">
+      <h4 class="subtitulo">Macroeconomía</h4>
+      <ul class="text-start">
+        <li>Estudia la economía en su conjunto.</li>
+        <li>Analiza indicadores agregados como PIB, inflación y desempleo.</li>
+        <li>Evalúa políticas fiscales y monetarias.</li>
+        <li><strong>Ejemplo:</strong> Cómo afecta una recesión al empleo nacional.</li>
+        <li><strong>Ejemplo:</strong> Impacto de una subida de tasas de interés.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-10">
+      <h5 class="text-primary">Comparación Microeconomía vs Macroeconomía</h5>
+      <div class="table-responsive">
+        <table class="table comparativa-table table-bordered">
+          <thead>
+            <tr>
+              <th>Aspecto</th>
+              <th>Microeconomía</th>
+              <th>Macroeconomía</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Enfoque</td>
+              <td>Individual</td>
+              <td>Global</td>
+            </tr>
+            <tr>
+              <td>Unidades de estudio</td>
+              <td>Consumidores, empresas</td>
+              <td>Gobierno, sector financiero</td>
+            </tr>
+            <tr>
+              <td>Indicadores</td>
+              <td>Oferta y demanda, precios, costos</td>
+              <td>PIB, inflación, desempleo</td>
+            </tr>
+            <tr>
+              <td>Ejemplo de decisión</td>
+              <td>Una tienda decide bajar sus precios</td>
+              <td>Un gobierno decide aumentar el gasto público</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center mt-4 mb-5">
+    <div class="col-md-10 nodo">
+      <h5 class="subtitulo">Relación con Ingeniería en Sistemas</h5>
+      <p>
+        En Ingeniería en Sistemas, la microeconomía ayuda a tomar decisiones sobre costos de desarrollo, optimización de recursos y análisis de usuarios.
+        La macroeconomía influye en decisiones estratégicas sobre inversión tecnológica, impacto de políticas económicas, financiamiento y sostenibilidad de proyectos.
+        Por ejemplo, una empresa tecnológica podría usar principios microeconómicos para ajustar precios de software, y consideraciones macroeconómicas para evaluar oportunidades de expansión en otro país.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<footer class="bg-dark text-light text-center py-3 mt-5">
+    <div class="container">
+      <p class="mb-0">Diego José Catalán Ayala &nbsp;|&nbsp; Carnet: 0907 24 16823 &nbsp;|&nbsp; Ingeniería en Sistemas - Cuarto Ciclo</p>
+    </div>
+  </footer>
+
+</body>
+</html>
